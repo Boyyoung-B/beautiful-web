@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.top{
+    background: url("images/Background-top.png") no-repeat;
+    width: 100%;
+    height: 960px;
+}
+.top-top{
+    font-size: 60px;
+    font-family: Arial sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top:200px;
+    font-weight: 100;
+}
+.top-middle{
+    font-size: 20px;
+    font-family: Arial sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.602);
+    line-height: 1.6;
+    text-align: center;
+    position: absolute;
+    left: 407.521px;
+    top: 342.198px;
+    width: 766px;
+    height: 84px;
+    z-index: 258;
+}
+.top-bottom{
+    position:absolute;
+    top: 530px;
+    left: 22%;
+    width:60%;
+    height: 240px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.3);
+}
+.create{
+    position:relative;
+    top: 50px;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 1.2px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.absolutely{
+    position: relative;
+    top: 58px;
+    text-align: center;
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.3);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.email{
+    position:relative;
+    left: 60px;
+    top: 90px;
+    width: 280px;
+    height: 32px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    padding-top: 15px;
+    padding-left: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: small;
+}
+.password{
+    position:relative;
+    left: 400px;
+    top: 40px;
+    width: 280px;
+    height: 32px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    padding-top: 15px;
+    padding-left: 18px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: small;
+}
+.sign{
+    position:relative;
+    left: 740px;
+    top: -10px;
+    width: 80px;
+    height: 32px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding-top: 15px;
+    padding-left: 18px;
+    background-color: white;
+    font-size: small;
+}
+.second{
+    width: 100%;
+    background-color: white;
+}
+.boatloads{
+    font-family: Arial sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    word-spacing: 0.8em;
+}
+.ready{
+    text-align: center;
+    font-size: 2.6em;
+    font-family: Arial sans-serif;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+.icons-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.icon{
+    width: 35%;
+    padding-right: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.icon-img{
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.icon-head{
+    font-family: Verdana Arial sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 0.8em;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+.icon-p{
+    font-family: Arial sans-serif;
+    line-height: 1.5em;
+    color: gray;
+}
+.third{
+    background-image: url("images/Background-middle.png");
+    width: 100%;
+    height: 800px;
+}
+.third-text{
+    width: 350px;
+    height: 360px;
+    font-family: Arial sans-serif;
+    position: relative;
+    top: 180px;
+    left: 280px;
+}
+.third-head{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 200;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+}
+.third-p{
+    color:rgba(255, 255, 255, 0.3);
+    line-height: 1.5em;
+}
+.third-check{
+    background-color: white;
+    padding: 18px 12px;
+    width: 200px;
+    position: relative;
+    left: 280px;
+    top: 250px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.third-try{
+    padding: 18px 12px;
+    width: 200px;
+    position: relative;
+    left: 550px;
+    top: 194px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.fourth-up{
+    font-family: Arial sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 60px 30px;
+    font-weight: lighter;
+}
+.fourth-down{
+    display: flex;
+    width: 70%;
+    margin: 0px 15% 50px 15%;
+    justify-content: space-evenly;
+}
+.fourth-icon{
+    width: 250px;
+    text-align: center;
+    line-height: 1.8em;
+    color: rgba(0, 0, 0, 0.4);
+}
+hr{
+    color: rgba(255,255,255,0.2);
+}
+.fifth{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fifth-text{
+    width: 30%;
+    padding-top: 80px;
+    font-family: Arial sans-serif;
+}
+.fifth-img{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+p{
+    color:rgba(0,0,0,0.3);
+}
